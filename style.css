@@ -50,6 +50,11 @@ th, td {
   text-align: left;
   color:black;
 }
+input{
+  height:40px;
+  width: 100%;
+  
+}
 #me{
   display:block;
   list-style-type: decimal;
@@ -57,7 +62,7 @@ th, td {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 40px
+  padding: 40px
  
 }
 #about{
@@ -65,8 +70,8 @@ th, td {
 
 }
 .info {
-  width: 400px;
-  height: 350px;
+  width: 300px;
+  height: 320px;
   background:lightskyblue;
   transition: width 2s, height 2s, transform 2s;
   display:flex;
@@ -74,16 +79,13 @@ th, td {
 }
 
 .info:hover {
-  width: 40%;
+  width: 450px;
   height: 400px;
   transform: rotate(360deg);
   font-size:30px;
 }
-#info{
-  display: flex;
-  flex-direction: row;
+input:hover{
+  height:60px;
   width:100%;
-  height:210px;
-  
+  font-size: 26px;
 }
-
