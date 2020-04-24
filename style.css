@@ -15,7 +15,7 @@ img{
   border-radius:50%;
   width: 30%;
 }
-#top,#name{
+#top,.name{
   text-align:center;
 }
 ul {
@@ -42,10 +42,12 @@ li a:hover {
   background-color: darkgray;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 th, td {
   padding: 5px;
   text-align: left;
+  color:black;
 }
+
