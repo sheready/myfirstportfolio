@@ -114,6 +114,14 @@ input:hover{
     height: 400px;
 
   }
+  #textbck h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: black;
+    font-size:100px;
+  
+  }
   #Rating{
     float:left;
     color:black;
