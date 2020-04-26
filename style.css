@@ -65,8 +65,12 @@ input{
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  padding: 40px
+  padding: 12px
  
+}
+#name{
+  color:black;
+  display: inline;
 }
 #about{
   color:black;
@@ -76,6 +80,7 @@ input{
   width: 50%;
   height: 100px;
  float:right;
+ color:black;
 
 }
 #info > input{
@@ -98,38 +103,71 @@ input:hover{
   text-align: center;
   height:50px;
 }
-  #topdiv{
-    width:100%;
-    height:380px;
-    display: flex;
-    flex-direction: row;
-  }
-  #topdiv{
-    background-image: url("https://images.ctfassets.net/e8i6c2002cqg/3RsFbGt0m2znQNIVa7C1Zg/26d79d89d0d17b221020d4423c8b0984/kimberly-angelist_illustration0912_optimized.jpg");
-    background-repeat: repeat;
-    background-position: left top;
-    margin-right: 10px;
-    width:100%;
-    opacity:1.0;
-    height: 400px;
-
-  }
+ 
   #textbck h1{
     position: absolute;
     top: 20%;
     left: 30%;
-    color: black;
+    color: white;
     font-size:100px;
   
   }
   #Rating{
-    float:left;
+  
     color:black;
     width: 50%;
-    height:100px;
-   display: block;
+    height:200px;
+   display: inline-block;
+
   }
   .checked {
     color: orange;
     
   }
+  @media (max-width: 700px){
+   #topdiv{
+     background-image: url("https://i1.sndcdn.com/artworks-000152909524-k3mw6h-t500x500.jpg");
+     background-repeat:repeat;
+    background-position: left top;
+    margin-right: 10px;
+    width:100%;
+    opacity:1.0;
+    height: 300px;
+    
+   }
+   #textbck h1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: purple;
+    font-size:80px;
+  
+
+  }
+}
+  @media (min-width: 600px){
+ #topdiv{
+      background-image: url("https://pbs.twimg.com/profile_images/1144387183811448833/XFGd68vL.png");
+         background-repeat: repeat;
+         background-position: left top;
+         margin-right: 10px;
+         width:100%;
+         opacity:1.0;
+         height: 400px;
+     
+       
+    }
+    #textbck h1{
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      color: white;
+      font-size:100px;
+    
+    }
+  
+  
+  
+  }
+
+
