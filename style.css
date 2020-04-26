@@ -73,13 +73,9 @@ input{
 
 }
 #info {
-  width: 40%;
-  height: 320px;
-  background:lightskyblue;
-  display:flex;
-  flex-direction: row;
-  padding: 5px;
-  position: center;
+  width: 50%;
+  height: 100px;
+ float:right;
 
 }
 #info > input{
@@ -117,4 +113,15 @@ input:hover{
     opacity:1.0;
     height: 400px;
 
+  }
+  #Rating{
+    float:left;
+    color:black;
+    width: 50%;
+    height:100px;
+   display: block;
+  }
+  .checked {
+    color: orange;
+    
   }
