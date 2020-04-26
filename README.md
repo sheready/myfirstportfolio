@@ -5,7 +5,7 @@ Programming portfolio
 Stella Waithera
 
 ## Description
-{This is a website that shows a portfolio for a developer, shows more details about the programmer,projects done,how the programmer gauges his skills as well as background.  
+This is a website that shows a portfolio for a developer, shows more details about the programmer,projects done,how the programmer gauges his skills as well as background.  
 
 ## Setup Requirements
 Connection to internet network.
