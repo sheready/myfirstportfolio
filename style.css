@@ -145,14 +145,12 @@ input:hover{
    }
    #textbck h1{
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 5%;
     color: purple;
     font-size:80px;
   }
-  #top{
-    font-size: smaller;
-  }
+ 
 }
   @media (min-width: 699px){
  #topdiv{
@@ -166,6 +164,9 @@ input:hover{
      
        
     }
+     #top{
+    text-align:center;
+  }
     #textbck h1{
       position: absolute;
       top: 40%;
