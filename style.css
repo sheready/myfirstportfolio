@@ -18,11 +18,8 @@ img{
   
 }
 
-}
-#top{
-  text-align:center;
 
-}
+
 
 #nav {
   list-style-type: none;
@@ -120,7 +117,7 @@ input:hover{
  }
 
   
-  #Rating{
+ #Rating{
   
     color:black;
     width: 50%;
@@ -149,6 +146,10 @@ input:hover{
     left: 5%;
     color: purple;
     font-size:80px;
+  }
+  #top{
+    text-align:center;
+  
   }
  
 }
